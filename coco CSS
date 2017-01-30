@@ -1,0 +1,67 @@
+body{
+  font-family:url('fonts/Vaivai%20Handwritting%20Regular%20Mac.ttf');
+}
+
+
+/********
+
+
+HEADER
+
+*********/
+
+li.liens{
+  text-transform: capitalize;
+  margin-top:3%;
+}
+
+header{
+  background:#ffffff;
+}
+
+ul.menu li a{
+  color:#000000;
+}
+
+/*********************************
+
+
+MAIN
+
+
+**********************************/
+div.carouselProduits-slide{
+  position:relative;
+}
+
+p{
+  color:#000000;
+  position:absolute;
+  bottom:0;
+  left:10%;
+}
+
+span{
+  color:#ff7ca6;
+}
+
+div.tour{
+  position:relative;
+}
+
+div.tour a{
+  position:absolute;
+  right:20px;
+  bottom:20px;
+  width:140px;
+  height:70px;
+}
+
+h2{
+  padding:9px 1px;
+  font-size:15px;
+}
+
+div.row{
+  margin-top:20px;
+}
