@@ -1,5 +1,6 @@
 body{
   font-weight: 400;
+  font-family:Dosis;
 }
 
 /********
@@ -71,10 +72,6 @@ div.tour a{
   height:7%;
 }
 
-h2{
-  font-size-adjust:auto;
-}
-
 div.row{
   margin-top:20px;
 }
@@ -118,6 +115,7 @@ ul.footer li a{
   font-size:11px;
   font-family:Dosis;
 }
+
 ul.reseauxSociaux li a img{
   height:25px;
 }
@@ -125,20 +123,58 @@ ul.reseauxSociaux li a img{
 h1{
   font-size:20px;
 }
+
 p{
   font-size:15px;
+}
+.textTrois, .textCinq{
+  text-align:left;
+}
+
+p.textTrois, p.textCinq{
+  font-size:15px;
+  line-height:16px;
+}
+
+a.button{
+  background:blue;
+}
+.haut{
+  margin-top:40%;
+}
+
+.textQuatre{
+  text-align:right;
+}
+
+p.textQuatre{
+  font-size:15px;
+  line-height:16px;
+}
+
+.cache{
+  display:none;
+}
+ul.repere li{
+  position:relative;
+}
+
+ul.repere li:hover ul.cache{
+  display:block;
+  position:absolute;
+  top:100%;
+  left:-25%;
+  background:#ffffff;
+  color:#ff7ca6;
+  width:150px;
+  z-index:99;
 }
 /*************
 
 A FAIRE
 
 ************/
-
-.event{
-  text-transform: uppercase;
-}
-
-.centre{
-  text-align:center;
-  margin:0 auto;
+.slick-prev{
+  color:black;
+  background:red;
 }
