@@ -36,13 +36,19 @@ div.carouselProduits-slide{
   position:relative;
 }
 
+div.tour p{
+  color:#ffffff;
+  line-height: 25px;
+  text-align:right;
+}
+
 section.fond, a.button{
   background:#f5f5f5;
   text-align:center;
 }
 
 
-p{
+div.carouselProduits-slide p{
   color:#000000;
   position:absolute;
   bottom:0;
@@ -91,7 +97,9 @@ footer
 ************/
 footer{
   text-align:center;
-  text-transform:Capitalize; 
+  text-transform:Capitalize;
+  margin-top:25px;
+  margin-bottom:45px;
 }
 
 ul.footer li, ul.reseauxSociaux li{

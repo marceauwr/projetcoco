@@ -12,23 +12,28 @@
   </head>
   <body>
     <header id="header">
-     <div class="title-bar" data-responsive-toggle="monmenu">
+     <div class="title-bar" data-responsive-toggle="menuheader">
        <button class="menu-icon" type=button data-toggle></button>
        <div class="title-bar-title">VAIVAI</div>
      </div>
-      <nav class="row" id="monmenu">
+      <nav class="row" id="menuheader">
         <ul class="menu">
           <li class="columns medium-3"><a href="#" title="Page d'accueil"><img src="https://www.vaivai.fr/resources/t/firstPixel/assets/images/logo.png" alt="Logo Vaïvaï"></a></li>
           <li class="columns medium-3 liens"><a href="#" title="événement">l'<span>é</span>vénement</a></li>
           <li class="columns medium-3 liens"><a href="#">le <span>p</span>roduit</a></li>
           <li class="columns medium-3 liens"><a href="#" title="histoire">l'<span>h</span>istoire</a></li>
         </ul>
+      </nav>
     </header>
     <main id="main">
        <section class="fond">
          <div class="row">
            <div class="tour columns large-12">
-             <img src="images/vroom.png" alt="Van volkswagen" class="columns large-12" />
+             <img src="images/vroom.png" alt="combi" class="columns small-4 vroom" />
+             <img src="images/pcs.png" alt="paris coco shooter" class="columns small-4"/>
+             <p class="columns small-4">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sequi officia ea harum deleniti eius ducimus, possimus, pariatur id. Maxime deserunt, officia.
+             </p>
              <a href="#" title="événement Paris coco shooter" class="button"><h2>En savoir plus...</h2></a>
            </div>  
          </div>
@@ -132,37 +137,38 @@
       <div class="row">
         <div class="columns small-12 medium-12 large-12 text">
           <h1>D’une amitié à un rêve, d’un rêve à un projet de vie</h1>
-          <i>
+          <p>
             C’est en 1998 que Manu et Gaëtan font connaissance l’un de l’autre au lycée Louis Barthou à Pau.
             Une fois le BAC en poche, ils montent à la capitale dans le but de poursuivre leurs études, jusqu’en 2006 où les deux amis se séparent : Manu prend son envol pour le Chili et Gaëtan s’en va un an au Brésil. Ce dernier y fera alors une découverte qui changera leur vie à jamais : le lancement de l’eau de coco sur le marché brésilien.
-          </i>
-          <i>
+          </p>
+          <p>
             En 2009, les deux compères décident dont de se lancer : direction les philippines, et après quelques semaines de discussions, c’est signé. Le premier container sera livré dans quelques mois. 
             De retour à Paris, ils ont le nom : « Vaïvaï ». On est alors en février 2010. 
             Avec une 1ère maquette du pack et un échantillon en poche, il est temps de trouver les premiers clients et ce fut Monoprix les premiers à leur donner leur chance.
             Juin 2010 marque donc le lancement officiel de Vaïvaï.
-          </i>
-          <i>
+          </p>
+          <p>
             Depuis, il est possible de déguster la noix de coco partout à travers la France, pour 2017 et les années suivantes…
-          </i>
+          </p>
         </div>
       </div>
-        <footer id="footer">
-          <ul class="footer">
+    </main>
+    <footer id="footer">
+          <ul class="footer menu vertical large-horizontal">
             <li><a href="#" title="carrière">carrière</a></li>
             <li><a href="#" title="média">Médias</a></li>
             <li><a href="#" title="presse">Presse</a></li>
             <li><a href="#" title="distributeur">Distributeur</a></li>
             <li><a href="#" title="a propos">A Propos</a></li>
           </ul>
-          <ul class="reseauxSociaux">
+          <ul class="reseauxSociaux menu vertical large-horizontal">
             <li><a href="https://www.facebook.com/vaivaifrance" title="facebook vaivai"><img src="images/facebook-logo.png" alt="logo facebook"></a></li>
             <li><a href="https://fr.pinterest.com/vaivai/"><img src="images/pinterest-logotype.png" alt="logo pinterest"></a></li>
             <li><a href="https://www.instagram.com/vaivaiconnexion/"><img src="images/instagram-logo.png" alt="instagram logo"></a></li>
             <li><a href="https://www.youtube.com/user/Vaivaiconnexion"><img src="images/youtube-symbol.png" alt="logo youtube"></a></li>
             <li><a href="https://www.linkedin.com/company/va-va-/"><img src="images/linkedin-logo.png" alt="logo linkedin"></a></li>
           </ul>
-          <ul class="footer autresLiens">
+          <ul class="footer autresLiens menu vertical large-horizontal">
             <li><a href="#">© 2017 Vaivai SAS</a></li>
             <li>|</li>
             <li><a href="#" title="Conditions d'utilisation">Conditions d'utilisation</a></li>
@@ -172,7 +178,6 @@
             <li><a href="#" title="Vie privée">Vie privée</a></li>
           </ul>
         </footer>
-    </main>
     <script src="scripts/vendor/jquery.js"></script>
     <script src="scripts/vendor/what-input.js"></script>
     <script src="scripts/vendor/foundation.min.js"></script>
@@ -186,7 +191,6 @@
           autoplay: true,
           dots : true,
           autoplaySpeed: 2000,
-          centerMode: true,
           centerPadding: '60px',
           slidesToShow: 3,
           pauseOnHover: true,
