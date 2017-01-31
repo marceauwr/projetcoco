@@ -130,6 +130,7 @@ header{
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	font-size: 30px;
 	font-family: 'Big Bimbo NC', sans-serif;
 	color: #01aa3a;
 }
@@ -139,6 +140,7 @@ header{
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	font-size: 28px;
 	font-family: 'Big Bimbo NC', sans-serif;
 	color: #2199e8;
 }
@@ -162,7 +164,7 @@ header{
 	
 	margin-top: 10px;
 	padding: 25px;
-	background: url(../images/plantation.jpg);
+	background: url(../images/coco.jpg);
 	border-radius: 150px;
 }
 
@@ -177,7 +179,7 @@ header{
 	margin-bottom: 15px;
 	color: #99ca3c;
 	font-family: 'TerminalDosis-Regular', sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: bold;
 }
 
@@ -187,7 +189,7 @@ header{
 	margin-bottom: 15px;
 	color: #04cfdd;
 	font-family: 'TerminalDosis-Regular', sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: bold;
 }
 
@@ -197,7 +199,7 @@ header{
 	margin-bottom: 15px;
 	color: #9dbc2c;
 	font-family: 'TerminalDosis-Regular', sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: bold;
 }
 
@@ -227,4 +229,46 @@ header{
 	text-align: center;
 	background: #2199e8;
 	border-radius: 15px;
+}
+
+
+/******************
+
+			FOOTER
+
+*******************/
+
+footer{
+  text-align:center;
+  text-transform:Capitalize;
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+
+ul.footer li, ul.reseauxSociaux li{
+  display:inline-block;
+  margin-right:5px;
+  margin-left:5px;
+  color:#75716a;
+}
+
+ul.footer li a{
+  text-decoration:none;
+  color:#75716a;
+}
+
+.autresLiens{
+  font-size:11px;
+  font-family:Dosis;
+}
+ul.reseauxSociaux li a img{
+  height:25px;
+}
+
+h1{
+  font-size:20px;
+}
+
+p{
+  font-size:15px;
 }
