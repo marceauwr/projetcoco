@@ -1,0 +1,298 @@
+/******************
+
+			ALL
+
+*****************/
+
+
+
+@font-face{
+	
+	font-family: 'alamain';
+	src: url('fonts/alamain1.ttf');
+}
+
+@font-face{
+	
+	font-family: 'Big Bimbo NC';
+	src: url('fonts/Big Bimbo NC.ttf');
+}
+
+@font-face{
+	
+	font-family: 'MissRooster';
+	src: url('fonts/MissRooster-Regular.otf');
+}
+
+@font-face{
+	
+	font-family: 'helvetica-normal';
+	src: url('fonts/helvetica-normal-588f427f40bdd.ttf');
+}
+
+@font-face{
+	
+	font-family: 'Raleway-Medium';
+	src: url('fonts/Raleway-Medium.ttf');
+}
+
+@font-face{
+	
+	font-family: 'Raleway-Regular';
+	src: url('fonts/Raleway-Regular.ttf');
+}
+
+@font-face{
+	
+	font-family: 'Raleway-Light';
+	src: url('fonts/Raleway-Light.ttf');
+}
+
+@font-face{
+	
+	font-family: 'TerminalDosis-Light';
+	src: url('fonts/TerminalDosis-Light.ttf');
+}
+
+@font-face{
+	
+	font-family: 'TerminalDosis-Medium';
+	src: url('fonts/TerminalDosis-Medium.ttf');
+}
+
+@font-face{
+	
+	font-family: 'TerminalDosis-Regular';
+	src: url('fonts/TerminalDosis-VaivaiRegular.ttf');
+}
+
+
+@font-face{
+	
+	font-family: 'Vaivai-font';
+	src: url('fonts/Vaivai Handwritting Regular Mac.ttf');
+}
+
+/*************
+
+		HEADER
+
+*************/
+
+
+li.liens{
+  text-transform: uppercase;
+  margin-top:3%;
+}
+
+header{
+  background:#ffffff;
+}
+
+ul.menu li a{
+  color:#000000;
+}
+
+header{
+	
+	font-family: 'Vaivai-font';
+}
+
+
+/*****************
+
+			MAIN
+
+*****************/
+
+
+/*** Bloc Principale n°1 ***/
+
+
+.histoireMarque{
+	
+	margin-bottom: 25px;
+}
+
+.titreHistoire{
+	
+	text-align: center;
+	font-family: 'TerminalDosis-Medium', 'Raleway-Regular', 'helvetica-normal', 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.titreDates{
+	
+	text-align: center;
+	font-family: 'TerminalDosis-Medium', 'Raleway-Regular', 'helvetica-normal', 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 45px;
+}
+
+.photoFondateurs{
+	
+	border-radius: 25px;
+	margin-top: 10px;
+}
+
+.sousTitreHistoire{
+	
+	text-align: center;
+	font-family: 'Vaivai-font', 'Arial', sans-serif;
+	font-size: 50px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.descriptionHistoire{
+	
+	font-family: 'TerminalDosis-Regular', 'helvetica-normal', 'Arial', sans-serif;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+
+.cocosOuvertes{
+	
+	margin-top: 25px;
+	border-radius: 25px;
+}
+
+.date{
+	
+	font-family: 'Raleway-Regular', 'helvetica-normal', 'Arial', sans-serif;
+}
+
+b{
+	
+	font-family: 'alamain', 'Arial', sans-serif;
+	font-size: 15px;
+	color:  #fa1978;
+}
+
+/*** Bloc Principale n°2 ***/
+
+.partieCoco{
+	
+	background: url(../images/Fond_communaute.png);
+}
+
+.titreCoco{
+	
+	text-align: center;
+	font-family: 'TerminalDosis-Medium', 'Raleway-Regular', 'helvetica-normal', 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color:  #a2ffc9;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.descriptionCoco{
+	
+	margin-bottom: 50px;
+	font-family: 'TerminalDosis-Regular', 'helvetica-normal', 'Arial', sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.infosCoco{
+	
+	margin-top: 50px;
+	text-align: center;
+	padding-bottom: 75px;
+}
+
+.tagCoco{
+	
+	display: inline-block;
+}
+
+.tag{
+	
+	float: left;
+}
+
+.tagTitle{
+	
+	display: inline-block;
+	font-family: 'TerminalDosis-Regular', 'helvetica-normal', 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-left: 8px;
+	margin-right: 28px;
+}
+
+.tag1{
+	
+	color: #25b83b;
+}
+
+.tag2{
+	
+	color: #6fb7d1;
+}
+
+.tag3{
+	
+	color: #9bb6bf;
+}
+
+.tag4{
+	
+	color: #ceed51;
+}
+
+.tag5{
+	
+	color: #cc8d27;
+}
+
+/***************
+
+		FOOTER
+
+***************/
+
+footer{
+  text-align:center;
+  text-transform:Capitalize;
+	padding-top: 26%;
+	padding-bottom: 25px;
+}
+
+ul.footer li, ul.reseauxSociaux li{
+  display:inline-block;
+  margin-right:5px;
+  margin-left:5px;
+  color:#75716a;
+}
+
+ul.footer li a{
+  text-decoration:none;
+  color:#75716a;
+}
+
+.autresLiens{
+  font-size:11px;
+  font-family:Dosis;
+}
+ul.reseauxSociaux li a img{
+  height:25px;
+}
+
+h1{
+  font-size:20px;
+}
+
+p{
+  font-size:15px;
+}
