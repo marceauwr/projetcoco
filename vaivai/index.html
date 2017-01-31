@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
      <div class="title-bar" data-responsive-toggle="monmenu">
        <button class="menu-icon" type=button data-toggle></button>
        <div class="title-bar-title">VAIVAI</div>
@@ -24,40 +24,54 @@
           <li class="columns medium-3 liens"><a href="#" title="histoire">l'<span>h</span>istoire</a></li>
         </ul>
     </header>
-    <main>
-      <div class="row">
-        <div class="tour columns large-12">
-          <img src="images/voiture.jpg" alt="Van volkswagen" columns large-12 />
-          <a href="#" title="événement Paris coco shooter" class="button"><h2>En savoir plus...</h2></a>
+    <main id="main">
+       <section class="fond">
+         <div class="row">
+           <div class="tour columns large-12">
+             <img src="images/vroom.png" alt="Van volkswagen" class="columns large-12" />
+             <a href="#" title="événement Paris coco shooter" class="button"><h2>En savoir plus...</h2></a>
+           </div>  
+         </div>
+       </section>
+      <div class="row"> 
+        <div class="columns small-12 medium-12 large-6 map">           
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52572.487924143956!2d2.330535999901158!3d48.863593637382365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66dc6143ed387%3A0xf26bed6076959491!2sParc+des+Buttes-Chaumont!5e0!3m2!1sfr!2sfr!4v1485786398135" width="550" height="800" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="columns small-12 large-6">
+          <ul class="date">
+            <li><h1>Les différentes dates de l'évènement : </h1></li>
+              <li>Pigale - 17 mai</li>
+              <li>Parc Monceau - 22 mai</li>
+              <li>Jardin du Luxembourg - 23 mai</li>
+              <li>République - 24 mai</li>
+              <li>Buttes Chaumont - 29 mai</li>
+              <li>Jardin du Luxembourg - 30 mai</li>
+              <li>Sentier - 31 mai</li>
+              <li>Parc Monceau - 5 juin</li>
+              <li>Jardin du Luxembourg - 6 juin</li>
+              <li>Champs Elysées - 7 juin</li>
+              <li>WE LOVE GREEN Bois de Vincennes - 10 et 11 juin</li>
+              <li>Buttes Chaumont - 12 juin</li>
+              <li>Bastille - 14 juin</li>
+              <li>Parc Monceau - 19 juin</li>
+              <li>Jardin du Luxembourg - 20 juin</li>
+              <li>Belleville - 21 juin</li>
+              <li>Buttes Chaumont - 26 juin</li>
+              <li>Odéon -  28 juin</li>
+              <li>Parc Monceau - 3 juillet</li>
+              <li>République - 5 juillet</li>
+              <li>Hôtel de ville de Paris - 6, 7 et 8 juillet)</li>
+              <li>Buttes Chaumont - 10 juillet</li>
+              <li>Jaurès - 12 juillet</li>
+              <li>Fnac Live Festival (juillet)</li>
         </div>  
       </div>
-      <div class="row"> 
-        <div class="columns small-8 large-5">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52572.487924143956!2d2.330535999901158!3d48.863593637382365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66dc6143ed387%3A0xf26bed6076959491!2sParc+des+Buttes-Chaumont!5e0!3m2!1sfr!2sfr!4v1485786398135" width="600" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <div class="row">
+        <div class="columns large-12">
+          <h1 class="event">
+            ajouter infos événement
+          </h1>
         </div>
-        <div class="columns small-12 large-5">
-          <ul>
-            <li>Les différentes dates de l'évènement.</li>
-            <li>GYM SUEDOISE (https://www.gymsuedoise.com/)</li>
-            <li>Cours extérieurs - Parc monceau(22 mail-  5 juin - 19 juin  - 3 juillet )</li>
-            <li>Buttes Chaumont (- 29 ma-   - 12 juin -  26 juin  - 10 juillet)</li>
-            <li>Jardin du luxembourg ((23 mail- 30 mai -  6 juin - 20 juin)</li>
-            <li>ADIDAS RUNNERS (https://www.facebook.com/adidasRunnersParis/)</li>
-            <li>Pigale 17 mai</li>
-            <li>Republique 24 mai</li>
-            <li>Sentier 31 mai</li>
-            <li>Champs Elysés 7 juin</li>
-            <li>Bastille 14 juin</li>
-            <li>Belleville 21 juin</li>
-            <li>Odeon 28 juin</li>
-            <li>Republique 5 juillet</li>
-            <li>Jaures 12 juillet</li>
-            <li>FNAC LIVE FESTIVAL (http://www.fnac.com/fnaclive   -   !! edition 2016)</li>
-            <li>Hôtel de ville de paris - Les 6 - 7 - 8 juillet</li>
-            <li>WE LOVE GREEN (http://www.welovegreen.fr/)</li>
-            <li>Vincennes 10 - 11 juin</li>
-          </ul>
-        </div>  
       </div>
       <div class="carouselProduits row">
         <div class="carouselProduits-slide columns small-12 large-4">
@@ -115,6 +129,49 @@
           </p>
         </div>
       </div>
+      <div class="row">
+        <div class="columns small-12 medium-12 large-12 text">
+          <h1>D’une amitié à un rêve, d’un rêve à un projet de vie</h1>
+          <i>
+            C’est en 1998 que Manu et Gaëtan font connaissance l’un de l’autre au lycée Louis Barthou à Pau.
+            Une fois le BAC en poche, ils montent à la capitale dans le but de poursuivre leurs études, jusqu’en 2006 où les deux amis se séparent : Manu prend son envol pour le Chili et Gaëtan s’en va un an au Brésil. Ce dernier y fera alors une découverte qui changera leur vie à jamais : le lancement de l’eau de coco sur le marché brésilien.
+          </i>
+          <i>
+            En 2009, les deux compères décident dont de se lancer : direction les philippines, et après quelques semaines de discussions, c’est signé. Le premier container sera livré dans quelques mois. 
+            De retour à Paris, ils ont le nom : « Vaïvaï ». On est alors en février 2010. 
+            Avec une 1ère maquette du pack et un échantillon en poche, il est temps de trouver les premiers clients et ce fut Monoprix les premiers à leur donner leur chance.
+            Juin 2010 marque donc le lancement officiel de Vaïvaï.
+          </i>
+          <i>
+            Depuis, il est possible de déguster la noix de coco partout à travers la France, pour 2017 et les années suivantes…
+          </i>
+        </div>
+      </div>
+        <footer id="footer">
+          <ul class="footer">
+            <li><a href="#" title="carrière">carrière</a></li>
+            <li><a href="#" title="média">Médias</a></li>
+            <li><a href="#" title="presse">Presse</a></li>
+            <li><a href="#" title="distributeur">Distributeur</a></li>
+            <li><a href="#" title="a propos">A Propos</a></li>
+          </ul>
+          <ul class="reseauxSociaux">
+            <li><a href="https://www.facebook.com/vaivaifrance" title="facebook vaivai"><img src="images/facebook-logo.png" alt="logo facebook"></a></li>
+            <li><a href="https://fr.pinterest.com/vaivai/"><img src="images/pinterest-logotype.png" alt="logo pinterest"></a></li>
+            <li><a href="https://www.instagram.com/vaivaiconnexion/"><img src="images/instagram-logo.png" alt="instagram logo"></a></li>
+            <li><a href="https://www.youtube.com/user/Vaivaiconnexion"><img src="images/youtube-symbol.png" alt="logo youtube"></a></li>
+            <li><a href="https://www.linkedin.com/company/va-va-/"><img src="images/linkedin-logo.png" alt="logo linkedin"></a></li>
+          </ul>
+          <ul class="footer autresLiens">
+            <li><a href="#">© 2017 Vaivai SAS</a></li>
+            <li>|</li>
+            <li><a href="#" title="Conditions d'utilisation">Conditions d'utilisation</a></li>
+            <li>|</li>
+            <li><a href="#" title="Mentions légales">mentions légales</a></li>
+            <li>|</li>
+            <li><a href="#" title="Vie privée">Vie privée</a></li>
+          </ul>
+        </footer>
     </main>
     <script src="scripts/vendor/jquery.js"></script>
     <script src="scripts/vendor/what-input.js"></script>

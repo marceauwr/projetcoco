@@ -1,7 +1,6 @@
 body{
-  font-family:url('fonts/Vaivai%20Handwritting%20Regular%20Mac.ttf');
+  font-weight: 400;
 }
-
 
 /********
 
@@ -17,12 +16,15 @@ li.liens{
 
 header{
   background:#ffffff;
+  font-family:url('fonts/Vaivai%20Handwritting%20Regular%20Mac.ttf');
 }
 
 ul.menu li a{
   color:#000000;
 }
-
+span{
+  color:#ff7ca6;
+}
 /*********************************
 
 
@@ -34,6 +36,12 @@ div.carouselProduits-slide{
   position:relative;
 }
 
+section.fond, a.button{
+  background:#f5f5f5;
+  text-align:center;
+}
+
+
 p{
   color:#000000;
   position:absolute;
@@ -41,30 +49,88 @@ p{
   left:10%;
 }
 
-span{
-  color:#ff7ca6;
-}
+
 
 div.tour{
   position:relative;
+  background:#102531;
 }
+
 
 div.tour a{
   position:absolute;
-  bottom:0;
-  right:0;
-  width:140px;
-  height:70px;
+  bottom:20px;
+  right:60px;
+  width:15%;
+  height:7%;
 }
 
 h2{
-  padding:9px 1px;
-  font-size:15px;
+  font-size-adjust:auto;
 }
 
 div.row{
   margin-top:20px;
 }
 
+ul.date{
+  text-align:center;
+}
 
-@media screen and (min-)
+ul.date li{
+  list-style:none;
+}
+
+div.text{
+  text-align:center;
+}
+/********
+
+footer
+
+************/
+footer{
+  text-align:center;
+  text-transform:Capitalize; 
+}
+
+ul.footer li, ul.reseauxSociaux li{
+  display:inline-block;
+  margin-right:5px;
+  margin-left:5px;
+  color:#75716a;
+}
+
+ul.footer li a{
+  text-decoration:none;
+  color:#75716a;
+}
+
+.autresLiens{
+  font-size:11px;
+  font-family:Dosis;
+}
+ul.reseauxSociaux li a img{
+  height:25px;
+}
+
+h1{
+  font-size:20px;
+}
+p{
+  font-size:15px;
+}
+/*************
+
+A FAIRE
+
+************/
+
+.event{
+  text-transform: uppercase;
+}
+
+.centre{
+  text-align:center;
+  margin:0 auto;
+}
