@@ -73,6 +73,12 @@
 	src: url('fonts/Vaivai Handwritting Regular Mac.ttf');
 }
 
+
+.clearBoth{
+	
+	clear: both;
+}
+
 /*************
 
 		HEADER
@@ -82,7 +88,10 @@
 
 li.liens{
   text-transform: uppercase;
-  margin-top:3%;
+  padding-top:3%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header{
@@ -95,7 +104,28 @@ ul.menu li a{
 
 header{
 	
-	font-family: 'Vaivai-font';
+	font-family: 'Big Bimbo NC';
+}
+
+span{
+  color:#ff7ca6;
+}
+
+/* hover sur le menu */
+
+#monmenu ul li:hover a{
+	
+	color : #fa1978;
+}
+
+#monmenu ul .liens:hover{
+	
+	padding-top: 2.85%;		
+	padding-bottom: 2.85%;
+	background: #F9F9F9;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -105,13 +135,22 @@ header{
 
 *****************/
 
-
 /*** Bloc Principale n°1 ***/
 
 
+.fondImage{
+	
+	background: url(../images/Fond_blanc_decore_2.jpg);
+} /* partie 1, 2, 4 HTML */
+
+.fondBlanc{
+	
+	background: #FAFAFA;
+} /* partie 3 HTML */
+
 .histoireMarque{
 	
-	margin-bottom: 25px;
+	padding-bottom: 25px;
 }
 
 .titreHistoire{
@@ -145,7 +184,7 @@ header{
 	text-align: center;
 	font-family: 'Vaivai-font', 'Arial', sans-serif;
 	font-size: 50px;
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
@@ -158,8 +197,14 @@ header{
 
 .cocosOuvertes{
 	
+	width: 800px;
 	margin-top: 25px;
 	border-radius: 25px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
 }
 
 .date{
@@ -174,9 +219,35 @@ b{
 	color:  #fa1978;
 }
 
+
+.bouton{
+	
+	
+	margin-top: 30px;
+	font-family: 'TerminalDosis-Regular', 'helvetica-normal', 'Arial', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	width: 175px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: #fa1978;
+	border-radius: 15px;
+	border: solid 2px;
+	border-color: #fa1978;
+}
+
+/* hover bouton */
+
+.bouton:hover{
+	
+	background: #FA0555;
+}
+
 /*** Bloc Principale n°2 ***/
 
-.partieCoco{
+.fondImage2{
 	
 	background: url(../images/Fond_communaute.png);
 }
@@ -199,8 +270,9 @@ b{
 	font-size: 18px;
 	color: #ffffff;
 	margin-bottom: 25px;
+	/*
 	margin-left: 10%;
-	margin-right: 10%;
+	margin-right: 10%; */
 }
 
 .infosCoco{
@@ -262,11 +334,12 @@ b{
 
 ***************/
 
+
 footer{
   text-align:center;
   text-transform:Capitalize;
-	padding-top: 26%;
-	padding-bottom: 25px;
+  margin-top:25px;
+  margin-bottom:45px;
 }
 
 ul.footer li, ul.reseauxSociaux li{
@@ -281,18 +354,25 @@ ul.footer li a{
   color:#75716a;
 }
 
+footer .menu{
+	
+	font-family: 'TerminalDosis-Regular';
+}
+
 .autresLiens{
   font-size:11px;
-  font-family:Dosis;
+  font-family: 'TerminalDosis-Medium';
 }
+
 ul.reseauxSociaux li a img{
   height:25px;
 }
 
-h1{
-  font-size:20px;
+ul.footer{
+  padding-top:0;
+  padding-bottom:0;
 }
 
-p{
-  font-size:15px;
+section.fondCinq{
+  background:#01aa3a;
 }
