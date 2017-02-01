@@ -112,20 +112,14 @@ span{
 
 /* hover sur le menu */
 
-#monmenu ul li:hover a{
+#monmenu ul .liens:hover a{
 	
 	color : #fa1978;
-}
-
-#monmenu ul .liens:hover{
-	
-	padding-top: 2.85%;		
-	padding-bottom: 2.85%;
-	background: #F9F9F9;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 
 /***************************
 
@@ -133,20 +127,51 @@ span{
 
 ***************************/
 
+
 .imageFond1{
-	background: url(../images/Fond_blanc_decore_1.png);
-	background-size: auto;
+	background: url(../images/fondimage1.png);
+	background-size: 100%;
 }
 
 .imageFond2{
-	background: url(../images/Fond_communaute.png);
+	background: url(../images/Fond_blanc_decore_1.png);
 	background-size: auto;
 }
 
 .imageFond3{
+	background: url(../images/Fond_communaute.png);
+	background-size: auto;
+}
+
+.imageFond4{
 	background: url(../images/Fond_blanc_decore_1.png);
 	background-size: auto;
 }
+
+/* titre page */
+
+.titrePage{
+	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#titrePage b{
+	
+	color: #fa1978;
+}
+
+#titrePage{
+	
+	color: #ffffff;
+	font-family: 'Big Bimbo NC';
+	font-size: 40px;
+}
+
+/* product section */
 
 .product{
 	
@@ -193,7 +218,7 @@ span{
 	
 	margin-top: 10px;
 	padding: 25px;
-	background: url(../images/coco.jpg);
+	background: url(../images/fondprouct.png);
 	border-radius: 150px;
 }
 
