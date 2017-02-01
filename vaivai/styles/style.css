@@ -26,6 +26,10 @@ ul.menu li a{
 span{
   color:#ff7ca6;
 }
+
+.columns{
+  padding:20px;
+}
 /*********************************
 
 
@@ -43,7 +47,7 @@ div.tour p{
   text-align:right;
 }
 
-section.fond, a.button{
+a.button{
   background:#f5f5f5;
   text-align:center;
 }
@@ -56,11 +60,12 @@ div.carouselProduits-slide p{
   left:10%;
 }
 
-
+section.fond{
+  background-image:url(../images/Savane.png);
+}
 
 div.tour{
   position:relative;
-  background:#102531;
 }
 
 
@@ -76,9 +81,6 @@ div.row{
   margin-top:20px;
 }
 
-ul.date{
-  text-align:center;
-}
 
 ul.date li{
   list-style:none;
@@ -87,6 +89,63 @@ ul.date li{
 div.text{
   text-align:center;
 }
+
+h1{
+  font-size:20px;
+}
+
+p{
+  font-size:15px;
+}
+.textTrois, .textCinq{
+  text-align:left;
+}
+
+
+p.textTrois, p.textCinq{
+  font-size:15px;
+  line-height:16px;
+}
+
+a.button{
+  background:blue;
+}
+.haut{
+  margin-top:40%;
+}
+
+.textQuatre{
+  text-align:right;
+}
+
+p.textQuatre{
+  font-size:15px;
+  line-height:16px;
+}
+
+.cache{
+  display:none;
+}
+
+ul.repere li{
+  position:relative;
+}
+
+ul.repere li:hover ul.cache{
+  display:block;
+  position:absolute;
+  top:0;
+  right:0;
+  background:#ffffff;
+  color:#ff7ca6;
+  width:150px;
+  z-index:99;
+}
+
+section.fondTrois{ 
+  background:url(../images/bois-pattern.jpg);
+}
+
 /********
 
 footer
@@ -120,54 +179,14 @@ ul.reseauxSociaux li a img{
   height:25px;
 }
 
-h1{
-  font-size:20px;
+ul.footer{
+  padding-top:0;
+  padding-bottom:0;
+  
 }
 
-p{
-  font-size:15px;
-}
-.textTrois, .textCinq{
-  text-align:left;
-}
-
-p.textTrois, p.textCinq{
-  font-size:15px;
-  line-height:16px;
-}
-
-a.button{
-  background:blue;
-}
-.haut{
-  margin-top:40%;
-}
-
-.textQuatre{
-  text-align:right;
-}
-
-p.textQuatre{
-  font-size:15px;
-  line-height:16px;
-}
-
-.cache{
-  display:none;
-}
-ul.repere li{
-  position:relative;
-}
-
-ul.repere li:hover ul.cache{
-  display:block;
-  position:absolute;
-  top:100%;
-  left:-25%;
-  background:#ffffff;
-  color:#ff7ca6;
-  width:150px;
-  z-index:99;
+section.fondCinq{
+  background:#01aa3a;
 }
 /*************
 
