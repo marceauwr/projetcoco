@@ -1,6 +1,25 @@
+@font-face{
+  font-family:'bigbimbo';
+  src:url('fonts/Big-Bimbo-NC.ttf');
+}
+@font-face{
+	
+	font-family: 'TerminalDosis-Medium';
+	src: url('fonts/TerminalDosis-Medium.ttf');
+}
+
+@font-face{
+	
+	font-family: 'TerminalDosis-Regular';
+	src: url('fonts/TerminalDosis-VaivaiRegular.ttf');
+}
+@font-face{
+	
+	font-family: 'TerminalDosis-Light';
+	src: url('fonts/TerminalDosis-Light.ttf');
+}
 body{
-  font-weight: 400;
-  font-family:Dosis;
+  font-family:'bigbimbo';
 }
 
 /********
@@ -10,9 +29,13 @@ HEADER
 
 *********/
 
+
 li.liens{
   text-transform: uppercase;
-  margin-top:3%;
+  padding-top:3%;
+  text-align:center;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 header{
@@ -23,13 +46,34 @@ header{
 ul.menu li a{
   color:#000000;
 }
+
 span{
   color:#ff7ca6;
 }
 
-.columns{
-  padding:20px;
+p{
+  font-family: 'TerminalDosis-Light';
 }
+
+h1{
+  font-family:'bigbimbo';
+}
+
+#monmenu ul li:hover a{
+	
+	color : #fa1978;
+}
+
+#monmenu ul .liens:hover{
+	
+	padding-top: 2.85%;		
+	padding-bottom: 2.85%;
+	background: #F9F9F9;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /*********************************
 
 
@@ -37,6 +81,19 @@ MAIN
 
 
 **********************************/
+h1.titre{
+  font-size:30px;
+  position:absolute;
+  right:20px;
+  bottom: 20px;
+  color:#ffffff;
+  font-family:'bigbimbo';
+}
+
+div.tour{
+  position:relative;
+}
+
 div.carouselProduits-slide{
   position:relative;
 }
@@ -52,13 +109,6 @@ a.button{
   text-align:center;
 }
 
-
-div.carouselProduits-slide p{
-  color:#000000;
-  position:absolute;
-  bottom:0;
-  left:10%;
-}
 
 section.fond{
   background-image:url(../images/Savane.png);
@@ -90,10 +140,6 @@ div.text{
   text-align:center;
 }
 
-h1{
-  font-size:20px;
-}
-
 p{
   font-size:15px;
 }
@@ -108,10 +154,7 @@ p.textTrois, p.textCinq{
 }
 
 a.button{
-  background:blue;
-}
-.haut{
-  margin-top:40%;
+  background:#001623;
 }
 
 .textQuatre{
@@ -134,7 +177,7 @@ ul.repere li{
 ul.repere li:hover ul.cache{
   display:block;
   position:absolute;
-  top:0;
+  top:100%;
   right:0;
   background:#ffffff;
   color:#ff7ca6;
@@ -146,6 +189,17 @@ section.fondTrois{
   background:url(../images/bois-pattern.jpg);
 }
 
+h1.titrePartie{
+  color:#fe0076;
+  font-weight:bold;
+  font-size:25px;
+  text-align:center;
+  
+}
+
+section.fondCinq{
+  background:#99ca3c;
+}
 /********
 
 footer
@@ -184,16 +238,56 @@ ul.footer{
   padding-bottom:0;
   
 }
+footer .menu{
+  font-family:'TerminalDosis-Regular';
+}
 
-section.fondCinq{
-  background:#01aa3a;
+.autresLiens{
+  font-size:11px;
+  font-family: 'TerminalDosis-Medium';
 }
 /*************
 
 A FAIRE
 
 ************/
-.slick-prev{
+
+.test{
+  -moz-box-shadow: 2px 2px 3px 0px #000000;
+  -webkit-box-shadow: 2px 2px 3px 0px #000000;
+  -o-box-shadow: 2px 2px 3px 0px #000000;
+  box-shadow: 2px 2px 3px 0px #000000;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=3);
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin-top:-50px;
+}
+
+.slick-prev:before{
   color:black;
-  background:red;
+}
+.slick-next:before{
+  color:black;
+}
+.slick-next{
+  
+  margin-right:100px;
+}
+
+.logo{
+  margin-top:30px;
+  width:300px;
+}
+
+.button{
+  border-radius: 150px;
+}
+
+.logvai{
+  margin-top:50px;
+}
+
+img{
+  display:block;
 }
