@@ -113,16 +113,9 @@ span{
 
 /* hover sur le menu */
 
-#monmenu ul li:hover a{
+#monmenu ul .liens:hover a{
 	
 	color : #fa1978;
-}
-
-#monmenu ul .liens:hover{
-	
-	padding-top: 2.85%;		
-	padding-bottom: 2.85%;
-	background: #F9F9F9;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -135,10 +128,27 @@ span{
 
 *****************/
 
-/*** Bloc Principale n°1 ***/
+/*** Bloc Principale n°2 ***/
 
+#titrePage{
+	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Big Bimbo NC';
+	font-size: 40px;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
 
-.fondImage{
+.titrePage b{
+	
+	font-family: 'Big Bimbo NC';
+	color: #fa1978;
+	font-size: 40px;
+}
+
+.fondImage2{
 	
 	background: url(../images/Fond_blanc_decore_2.jpg);
 } /* partie 1, 2, 4 HTML */
@@ -245,9 +255,9 @@ b{
 	background: #FA0555;
 }
 
-/*** Bloc Principale n°2 ***/
+/*** Bloc Principale n°3 ***/
 
-.fondImage2{
+.fondImage3{
 	
 	background: url(../images/Fond_communaute.png);
 }
