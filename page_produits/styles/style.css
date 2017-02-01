@@ -73,6 +73,10 @@
 	src: url('fonts/Vaivai Handwritting Regular Mac.ttf');
 }
 
+.clearBoth{
+	
+	clear: both;
+}
 
 /********
 
@@ -82,7 +86,10 @@ HEADER
 
 li.liens{
   text-transform: uppercase;
-  margin-top:3%;
+  padding-top:3%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 header{
@@ -90,12 +97,34 @@ header{
 }
 
 ul.menu li a{
+	
   color:#000000;
 }
 
 header{
 	
-	font-family: 'Vaivai-font';
+	font-family: 'Big Bimbo NC';
+}
+
+span{
+  color:#ff7ca6;
+}
+
+/* hover sur le menu */
+
+#monmenu ul li:hover a{
+	
+	color : #fa1978;
+}
+
+#monmenu ul .liens:hover{
+	
+	padding-top: 2.85%;		
+	padding-bottom: 2.85%;
+	background: #F9F9F9;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /***************************
@@ -130,8 +159,8 @@ header{
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: 30px;
-	font-family: 'Big Bimbo NC', sans-serif;
+	font-size: 68px;
+	font-family: 'Vaivai-font', 'Big Bimbo NC', sans-serif;
 	color: #01aa3a;
 }
 
@@ -140,15 +169,15 @@ header{
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: 28px;
-	font-family: 'Big Bimbo NC', sans-serif;
+	font-size: 68px;
+	font-family: 'Vaivai-font', 'Big Bimbo NC', sans-serif;
 	color: #2199e8;
 }
 
 .descriptionProduct{
 	
 	font-size: 18px;
-	font-family: 'TerminalDosis-Medium', 'helvetica-normal', 'Arial', sans-serif;
+	font-family: 'TerminalDosis-Light', 'helvetica-normal', 'Arial', sans-serif;
 	margin-bottom: 25px;
 }
 
@@ -156,7 +185,7 @@ header{
 	
 	font-size: 18px;
 	color: #ffffff;
-	font-family: 'TerminalDosis-Medium', 'helvetica-normal', 'Arial', sans-serif;
+	font-family: 'TerminalDosis-Light', 'helvetica-normal', 'Arial', sans-serif;
 	margin-bottom: 25px;
 }
 
@@ -208,12 +237,12 @@ header{
 	display: inline-block;
 	margin-left: 23%;
 	font-family: 'TerminalDosis-Regular', 'helvetica-normal', 'Arial', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #ffffff;
-	width: 100px;
+	width: 125px;
 	text-align: center;
-	background: #99ca3c;
+	background: #01aa3a;
 	border-radius: 15px;
 }
 
@@ -222,15 +251,26 @@ header{
 	display: inline-block;
 	margin-left: 23%;
 	font-family: 'TerminalDosis-Regular', 'helvetica-normal', 'Arial', sans-serif;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	color: #ffffff;
-	width: 100px;
+	width: 125px;
 	text-align: center;
 	background: #2199e8;
 	border-radius: 15px;
 }
 
+/* hover bouton */
+
+.bouton:hover{
+	
+	background: #01893A;
+}
+
+.bouton2:hover{
+	
+	background: #2177E9;
+}
 
 /******************
 
@@ -241,8 +281,8 @@ header{
 footer{
   text-align:center;
   text-transform:Capitalize;
-	padding-top: 30px;
-	padding-bottom: 25px;
+  margin-top:25px;
+  margin-bottom:45px;
 }
 
 ul.footer li, ul.reseauxSociaux li{
@@ -257,18 +297,27 @@ ul.footer li a{
   color:#75716a;
 }
 
+
+footer .menu{
+	
+	font-family: 'TerminalDosis-Regular';
+}
+
 .autresLiens{
   font-size:11px;
-  font-family:Dosis;
+  font-family: 'TerminalDosis-Medium';
 }
+
 ul.reseauxSociaux li a img{
   height:25px;
 }
 
-h1{
-  font-size:20px;
+ul.footer{
+  padding-top:0;
+  padding-bottom:0;
+  
 }
 
-p{
-  font-size:15px;
+section.fondCinq{
+  background:#01aa3a;
 }
