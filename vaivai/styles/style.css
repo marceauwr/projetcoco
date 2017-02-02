@@ -246,6 +246,20 @@ footer .menu{
   font-size:11px;
   font-family: 'TerminalDosis-Medium';
 }
+
+.fondTroisBis{
+  background:url('../images/boisNoir.png');
+}
+
+.event{
+  font-size:40px;
+  color:#ffffff;
+  margin-top:25px;
+}
+
+.fondcarte{
+  background:url('../images/bois-pattern.jpg');
+}
 /*************
 
 A FAIRE
@@ -270,10 +284,12 @@ A FAIRE
 .slick-next:before{
   color:black;
 }
-.slick-next{
-  
+@media screen max-width(1200px) & min-width(480px){
+  .slick-next{ 
   margin-right:100px;
 }
+}
+
 
 .logo{
   margin-top:30px;
