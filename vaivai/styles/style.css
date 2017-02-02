@@ -18,8 +18,14 @@
 	font-family: 'TerminalDosis-Light';
 	src: url('fonts/TerminalDosis-Light.ttf');
 }
+
 body{
   font-family:'bigbimbo';
+}
+
+.clearBoth{
+	
+	clear: both;
 }
 
 /********
@@ -33,46 +39,40 @@ HEADER
 li.liens{
   text-transform: uppercase;
   padding-top:3%;
-  text-align:center;
-  margin-right:auto;
-  margin-left:auto;
-}
-
-header{
-  background:#ffffff;
-  font-family:url('fonts/Vaivai%20Handwritting%20Regular%20Mac.ttf');
-}
-
-ul.menu li a{
-  color:#000000;
-}
-
-span{
-  color:#ff7ca6;
-}
-
-p{
-  font-family: 'TerminalDosis-Light';
-}
-
-h1{
-  font-family:'bigbimbo';
-}
-
-#monmenu ul li:hover a{
-	
-	color : #fa1978;
-}
-
-#monmenu ul .liens:hover{
-	
-	padding-top: 2.85%;		
-	padding-bottom: 2.85%;
-	background: #F9F9F9;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
+
+header{
+  background:#ffffff;
+}
+
+ul.menu li a{
+	
+  color:#000000;
+}
+
+header{
+	
+	font-family: 'bigbimbo';
+	font-size: 20px;
+}
+
+span{
+  color: #ed237a;
+}
+
+/* hover sur le menu */
+
+#monmenu ul .liens:hover a{
+	
+	color : #fa1978;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 /*********************************
 
@@ -112,6 +112,8 @@ a.button{
 
 section.fond{
   background-image:url(../images/Savane.png);
+	padding-bottom: 100px;
+	padding-top: 100px;
 }
 
 div.tour{
@@ -126,11 +128,6 @@ div.tour a{
   width:15%;
   height:7%;
 }
-
-div.row{
-  margin-top:20px;
-}
-
 
 ul.date li{
   list-style:none;
@@ -185,21 +182,163 @@ ul.repere li:hover ul.cache{
   z-index:99;
 }
 
-section.fondTrois{ 
-  background:url(../images/bois-pattern.jpg);
-}
-
 h1.titrePartie{
   color:#fe0076;
   font-weight:bold;
-  font-size:25px;
+  font-size:28px;
   text-align:center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: 'bigbimbo';
   
 }
 
 section.fondCinq{
   background:#99ca3c;
 }
+
+
+.fondTroisBis{
+  background:url('../images/boisNoir.png');
+	background-size: 100%;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+.event{
+  font-size:40px;
+  color:#ffffff;
+  margin-top:25px;
+}
+
+.fondcarte{
+  background:url('../images/bois-pattern.jpg');
+	padding-bottom: 125px;
+}
+
+
+.titleEvent{
+	
+	font-family: 'TerminalDosis-Regular';
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.hashtag{
+	
+	font-family: 'TerminalDosis-Medium';
+	font-size: 85px;
+	text-align: center;
+	background: #fa1978;
+	width: 125px;
+	height: 125px;
+	border-radius: 150px;
+	margin-top: 5px;
+	margin-left: -170px;
+}
+
+.fondTrois{
+	
+	background: url(../images/Fond_blanc_decore_2.jpg);
+	background-size: 100%;
+}
+
+.logosConcours{
+	
+	margin-top: 25px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logoConcours{
+	
+	display: inline-block;
+	margin-right: 3px;
+}
+
+.logoConcours2{
+	
+	margin-left: 11px;
+	margin-right: 3px;
+	display: inline-block;
+}
+
+.logoTwitterConcours{
+	
+	display: inline-block;
+	margin-top: -25px;
+	margin-left: 10px;
+	width: 40px;
+}
+
+.titleConcours{
+	
+	display: inline-block;
+	margin-top: 25px;
+	font-family: 'TerminalDosis-Medium';
+	font-size: 45px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: #fa1978;
+	border-radius: 15px;
+	width: 215px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+
+
+/*
+.facebookShare{
+	
+	display: inline-block;
+	margin-left: 25px;
+	width: 140px;
+}
+*/
+
+.vanTitle{
+	
+  color:#ffffff;
+  font-family:'bigbimbo';
+	font-size:30px;
+}
+
+#descriptionConcours{
+	
+	font-size: 20px;
+	font-family: 'TerminalDosis-Regular';
+}
+
+.photoConcours{
+	
+	margin-top: 75px;
+}
+
+
+.tweet{
+	
+	width: 175px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.copa{
+	
+	margin-top: 40px;
+	font-family: 'bigbimbo';
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	color : #fa1978;
+	transform: rotate(-15deg);
+	margin-bottom: 50px;
+}
+
 /********
 
 footer
@@ -208,8 +347,7 @@ footer
 footer{
   text-align:center;
   text-transform:Capitalize;
-  margin-top:25px;
-  margin-bottom:45px;
+  padding-top: 30px;	
 }
 
 ul.footer li, ul.reseauxSociaux li{
@@ -247,22 +385,10 @@ footer .menu{
   font-family: 'TerminalDosis-Medium';
 }
 
-.fondTroisBis{
-  background:url('../images/boisNoir.png');
-}
 
-.event{
-  font-size:40px;
-  color:#ffffff;
-  margin-top:25px;
-}
-
-.fondcarte{
-  background:url('../images/bois-pattern.jpg');
-}
 /*************
 
-A FAIRE
+AUTRE
 
 ************/
 

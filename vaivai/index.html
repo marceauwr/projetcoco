@@ -12,6 +12,7 @@
   </head>
   <body>
      <!--          Menu       -->
+     <!--HEADER-->
     <header>
      <div class="title-bar" data-responsive-toggle="monmenu">
        <button class="menu-icon" type=button data-toggle></button>
@@ -19,21 +20,22 @@
      </div>
       <nav class="row" id="monmenu">
         <ul class="menu">
-          <li class="columns medium-3"><a href="#" title="Page d'accueil"><img src="https://www.vaivai.fr/resources/t/firstPixel/assets/images/logo.png" alt="Logo Vaïvaï"></a></li>
+          <li class="columns medium-3"><a href="#" title="Page d'accueil"><img src="images/vaivailogoevent.png" alt="Logo Vaïvaï"></a></li>
           <li class="columns medium-3 liens"><a href="#" title="événement">l'<span>é</span>vénement</a></li>
           <li class="columns medium-3 liens"><a href="#">le <span>p</span>roduit</a></li>
           <li class="columns medium-3 liens"><a href="#" title="histoire">l'<span>h</span>istoire</a></li>
         </ul>
     </header>
     <!--                         Première partie               -->
+    <!--MAIN-->
     <main id="main">
        <section class="fond">
          <div class="row">
            <div class="tour columns large-12">
              <img src="images/vroomvroom.png" alt="combi" class="columns small-12" />
              <div class="row">
-               <div class="columns small-12 large-6">
-                 <h1 class="titre text-center">Le van vaïvaï part dans Paris à l'été 2017</h1>
+               <div class="columns small-12 large-12">
+                 <h1 class="vanTitle text-center">Le van vaïvaï part dans Paris dès l'été 2017 !</h1>
                </div>
              </div>
            </div>  
@@ -189,45 +191,54 @@
       <section class="fondTroisBis">
         <div class="row">
           <div class="columns small-12 text-center event">
-            <span>D</span>écouvrez notre <span>événement</span>
+            <h1 class="titleEvent"><span>D</span>écouvrez <span>n</span>otre <span>É</span>vénement</h1>
           </div>
         </div>
-        <div class="row">
-          <div class="columns small-12 text-center">
-            LOGO
-          </div>
+        <div class="row logosConcours">
+          <a href="#" title="Twitter"><img src="images/twitterConcours.png" alt="Twitter" class="logoConcours" /></a>
+          <a href="#" title="Facebook"><img src="images/facebookconcours.png" alt="Facebook" class="logoConcours" /></a>
+          <a href="#" title="Instagram"><img src="images/instagramconcours.png" alt="Instagram" class="logoConcours2"></a>
+          <a href="#" title="YouTube"><img src="images/youtubeconcours.png" alt="YouTube" class="logoConcours"></a>
         </div>
       </section>
         <!--2e partie-->
       <section class="fondcarte">
         <div class="row">
           <div class="columns small-12">
+          	<h1 class="hashtag">#</h1>
             <img src="images/carteTresor.png" alt="carte #cocoShooter">
           </div>
         </div>
       </section> 
       <section class="fondTrois">      
-        <div class="row align-middle">
-          <div class="columns small-12 medium-12 large-6">
-            <h1 class="small-text-center large-text-left titrePartie">L'événement</h1>
-            <p class="small-text-center large-text-left">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis molestias illo error nulla corrupti quisquam, sit omnis quo delectus dolorem. Fugiat delectus excepturi, rerum. Aut vitae eligendi expedita maiores. Vero?
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quas aut vero incidunt placeat architecto, reprehenderit ipsam blanditiis libero nesciunt atque similique, error quis consequuntur, fuga! Omnis debitis sequi consequuntur.
-            </p>
-          </div>
-          <div class="columns small-12 medium-12 large-12 text-center logo">
-            <ul class="menu text-center">
-              <li><a href="#"><img src="images/facebook-logo.png" alt="logo facebook" class="logo"></a></li>
-              <li><a href="#"><img src="images/twitter.png" alt="logo twitter"  class="logo"></a></li>
-              <li><a href="#"><img src="images/instagram-logo.png" alt="logo instagram"  class="logo"></a></li>
-              <li><a href="#"><img src="images/youtube-symbol.png" alt="logo youtube"  class="logo"></a></li>
-            </ul>
-            <a href="#" title="button" class="button">En savoir plus</a>
-          </div>
-        </div>
+				<div class="row">
+					<div class="columns large-5 medium-12 small-12">
+						<h1 class="titleConcours">Concours</h1>
+						<a href="#" title="Twitter"></a><img src="images/twitterConcours.png" alt="Twitter" class="logoTwitterConcours" />
+						<p id="descriptionConcours">
+							Nous organisons un concours photo qui consiste à partager son plus beau cliché du Van avec le hash-tag #ShootTheCoco sur Twitter, Facebook ou Instagram.
+							<br />
+							<br />
+							Suite à cela, tu auras peut-être la chance de pouvoir remporter un voyage au Brésil offert par Vaivai !
+							<br />
+							<br />
+							N'attends plus ! Participe au concours pour tenter ta chance ! #ShootTheCoco
+						</p>
+						<a href="#" title="tweet"><img src="images/tweet.png" alt="tweet" class="tweet" /></a>
+						<!-- facebook share ?
+						<a href="#" title="Twitter"><img src="images/facebookshare.png" alt="Twitter" class="facebookShare" /></a>
+						-->
+					</div>
+					<div class="columns large-7 medium-12 small-12">
+						<img src="images/photoConcours.png" alt="Voyage Brésil" class="photoConcours" />
+						<h2 class="copa">Copacabana</h2>
+					</div>
+				</div>
       </section>
       <!--                     Quatrième partie   produit           -->
-        <div class="row">
+      <!--
+      <section class="fondQuatre">
+      	<div class="row">
           <div class="columns small-12 medium-6 large-6">
             <div class="carouselProduits row">
           <div class="carouselProduits-slide columns small-12 large-4 ">
@@ -250,23 +261,11 @@
             <a href="#" class="button text-right">En savoir plus</a>
           </div>
         </div>
-      <!--                    Cinquième partie  poubelle           -->
-      <section class="fondCinq">
-         <div class="row">
-          <div class="columns small-12 medium-12 large-6 text small-text-center large-text-left">
-            <h1 class=" titrePartie">L'Histoire</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, mollitia, quasi. Itaque inventore vel doloremque molestias consequatur, libero corporis pariatur distinctio nihil sunt animi repellat quidem, tempore, maiores quibusdam dolorum.
-            </p>
-            <a href="#" title="En savoir plus" class="button text-right">En savoir toujours plus</a>
-          </div>
-          <div class="columns small-12 large-6 small-text-center large-text-left logvai">
-            <img src="images/logo%20vaivai.png" alt="logo VAIVAI" />
-          </div>
-        </div>
-      </section>
+      </section> 
+      -->
     </main>
-    <!--                        Footer                     -->
+    <div class="clearBoth"></div>
+    <!--FOOTER-->
     <footer id="footer text-center row">
           <ul class="footer menu columns small-12">
             <li><a href="#" title="carrière">carrière</a></li>
@@ -293,7 +292,7 @@
             <li><a href="#" title="Vie privée">Vie privée</a></li>
           </ul>
         </footer>
-        <!--                    JS Blablabla           -->
+        <!--JS-->
     <script src="scripts/vendor/jquery.js"></script>
     <script src="scripts/vendor/what-input.js"></script>
     <script src="scripts/vendor/foundation.min.js"></script>
