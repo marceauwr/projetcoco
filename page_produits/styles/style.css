@@ -108,7 +108,7 @@ header{
 }
 
 span{
-  color:#ff7ca6;
+  color:#ed237a;
 }
 
 /* hover sur le menu */
@@ -307,8 +307,7 @@ span{
 footer{
   text-align:center;
   text-transform:Capitalize;
-  margin-top:25px;
-  margin-bottom:45px;
+  padding-top: 30px;	
 }
 
 ul.footer li, ul.reseauxSociaux li{
@@ -323,15 +322,9 @@ ul.footer li a{
   color:#75716a;
 }
 
-
-footer .menu{
-	
-	font-family: 'TerminalDosis-Regular';
-}
-
 .autresLiens{
   font-size:11px;
-  font-family: 'TerminalDosis-Medium';
+  font-family:Dosis;
 }
 
 ul.reseauxSociaux li a img{
@@ -343,7 +336,11 @@ ul.footer{
   padding-bottom:0;
   
 }
+footer .menu{
+  font-family:'TerminalDosis-Regular';
+}
 
-section.fondCinq{
-  background:#01aa3a;
+.autresLiens{
+  font-size:11px;
+  font-family: 'TerminalDosis-Medium';
 }
