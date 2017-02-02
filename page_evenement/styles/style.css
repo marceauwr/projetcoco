@@ -1,0 +1,463 @@
+@font-face{
+  font-family:'bigbimbo';
+  src:url('fonts/Big-Bimbo-NC.ttf');
+}
+@font-face{
+	
+	font-family: 'TerminalDosis-Medium';
+	src: url('fonts/TerminalDosis-Medium.ttf');
+}
+
+@font-face{
+	
+	font-family: 'TerminalDosis-Regular';
+	src: url('fonts/TerminalDosis-VaivaiRegular.ttf');
+}
+@font-face{
+	
+	font-family: 'TerminalDosis-Light';
+	src: url('fonts/TerminalDosis-Light.ttf');
+}
+
+body{
+  font-family:'bigbimbo';
+}
+
+.clearBoth{
+	
+	clear: both;
+}
+
+/********
+
+
+HEADER
+
+*********/
+
+
+li.liens{
+  text-transform: uppercase;
+  padding-top:3%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+  background:#ffffff;
+}
+
+ul.menu li a{
+	
+  color:#000000;
+}
+
+header{
+	
+	font-family: 'bigbimbo';
+	font-size: 20px;
+}
+
+span{
+  color: #ed237a;
+}
+
+/* hover sur le menu */
+
+#monmenu ul .liens:hover a{
+	
+	color : #fa1978;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*********************************
+
+
+MAIN
+
+
+**********************************/
+h1.titre{
+  font-size:30px;
+  position:absolute;
+  right:20px;
+  bottom: 20px;
+  color:#ffffff;
+  font-family:'bigbimbo';
+}
+
+div.tour{
+  position:relative;
+}
+
+div.carouselProduits-slide{
+  position:relative;
+}
+
+div.tour p{
+  color:#ffffff;
+  line-height: 25px;
+  text-align:right;
+}
+
+a.button{
+  background:#f5f5f5;
+  text-align:center;
+}
+
+
+section.fond{
+  background-image:url(../images/Savane.png);
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+div.tour{
+  position:relative;
+}
+
+
+div.tour a{
+  position:absolute;
+  bottom:20px;
+  right:60px;
+  width:15%;
+  height:7%;
+}
+
+ul.date li{
+  list-style:none;
+}
+
+div.text{
+  text-align:center;
+}
+
+p{
+  font-size:15px;
+}
+.textTrois, .textCinq{
+  text-align:left;
+}
+
+
+p.textTrois, p.textCinq{
+  font-size:15px;
+  line-height:16px;
+}
+
+a.button{
+  background:#001623;
+}
+
+.textQuatre{
+  text-align:right;
+}
+
+p.textQuatre{
+  font-size:15px;
+  line-height:16px;
+}
+
+.cache{
+  display:none;
+}
+
+ul.repere li{
+  position:relative;
+}
+
+ul.repere li:hover ul.cache{
+  display:block;
+  position:absolute;
+  top:100%;
+  right:0;
+  background:#ffffff;
+  color:#ff7ca6;
+  width:150px;
+  z-index:99;
+}
+
+h1.titrePartie{
+  color:#fe0076;
+  font-weight:bold;
+  font-size:28px;
+  text-align:center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: 'bigbimbo';
+  
+}
+
+section.fondCinq{
+  background:#99ca3c;
+}
+
+
+.fondTroisBis{
+  background:url('../images/boisNoir.png');
+	background-size: 100%;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+.event{
+  font-size:40px;
+  color:#ffffff;
+  margin-top:25px;
+}
+
+.fondcarte{
+  background:url('../images/bois-pattern.jpg');
+	padding-bottom: 125px;
+}
+
+
+.titleEvent{
+	
+	font-family: 'TerminalDosis-Regular';
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.hashtag{
+	
+	font-family: 'TerminalDosis-Medium';
+	font-size: 85px;
+	color: #ffffff;
+	text-align: center;
+	background: #fa1978;
+	width: 125px;
+	height: 125px;
+	border-radius: 150px;
+	margin-top: 5px;
+	margin-left: -170px;
+}
+
+.fondTrois{
+	
+	background: url(../images/Fond_blanc_decore_2.jpg);
+	background-size: 100%;
+}
+
+.logosConcours{
+	
+	margin-top: 25px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logoConcours{
+	
+	display: inline-block;
+	margin-right: 3px;
+}
+
+.logoConcours2{
+	
+	margin-left: 11px;
+	margin-right: 3px;
+	display: inline-block;
+}
+
+.logoTwitterConcours{
+	
+	display: inline-block;
+	margin-top: -25px;
+	margin-left: 10px;
+	width: 40px;
+}
+
+.titleConcours{
+	
+	display: inline-block;
+	margin-top: 25px;
+	font-family: 'TerminalDosis-Medium';
+	font-size: 45px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background: #fa1978;
+	border-radius: 15px;
+	width: 215px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+
+
+/*
+.facebookShare{
+	
+	display: inline-block;
+	margin-left: 25px;
+	width: 140px;
+}
+*/
+
+.vanTitle{
+	
+  color:#ffffff;
+  font-family:'bigbimbo';
+	font-size:30px;
+}
+
+#descriptionConcours{
+	
+	font-size: 20px;
+	font-family: 'TerminalDosis-Regular';
+}
+
+.photoConcours{
+	
+	margin-top: 75px;
+}
+
+
+.tweet{
+	
+	width: 175px;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.copa{
+	
+	margin-top: 40px;
+	font-family: 'bigbimbo';
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	color : #fa1978;
+	transform: rotate(-15deg);
+	margin-bottom: 50px;
+}
+
+.fondQuatre{
+	
+	padding-top: 50px;
+}
+
+.titleProduct{
+	margin-top: 25px;
+	font-family: 'TerminalDosis-Medium';
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	color: #fa1978;
+}
+
+.descriptionProduct{
+	
+	margin-top: 15px;
+	margin-bottom: 35px;
+	margin-left: 50px;
+	font-family: 'TerminalDosis-Regular';
+	font-size: 15px;
+}
+
+.boutonProduct{
+	display: block;
+	width: 150px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/********
+
+footer
+
+************/
+footer{
+  text-align:center;
+  text-transform:Capitalize;
+  padding-top: 30px;	
+}
+
+ul.footer li, ul.reseauxSociaux li{
+  display:inline-block;
+  margin-right:5px;
+  margin-left:5px;
+  color:#75716a;
+}
+
+ul.footer li a{
+  text-decoration:none;
+  color:#75716a;
+}
+
+.autresLiens{
+  font-size:11px;
+  font-family:Dosis;
+}
+
+ul.reseauxSociaux li a img{
+  height:25px;
+}
+
+ul.footer{
+  padding-top:0;
+  padding-bottom:0;
+  
+}
+footer .menu{
+  font-family:'TerminalDosis-Regular';
+}
+
+.autresLiens{
+  font-size:11px;
+  font-family: 'TerminalDosis-Medium';
+}
+
+
+/*************
+
+AUTRE
+
+************/
+
+.test{
+  -moz-box-shadow: 2px 2px 3px 0px #000000;
+  -webkit-box-shadow: 2px 2px 3px 0px #000000;
+  -o-box-shadow: 2px 2px 3px 0px #000000;
+  box-shadow: 2px 2px 3px 0px #000000;
+  filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=134, Strength=3);
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin-top:-50px;
+}
+
+.slick-prev:before{
+  
+}
+.slick-next:before{
+  
+}
+
+.logo{
+  margin-top:30px;
+  width:300px;
+}
+
+.button{
+  border-radius: 150px;
+}
+
+.logvai{
+  margin-top:50px;
+}
+
+img{
+  display:block;
+}
